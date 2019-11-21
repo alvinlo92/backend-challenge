@@ -1,0 +1,19 @@
+{
+  "name": "notable-backend-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server-dev": "nodemon server/index.js --watch",
+    "create": "psql postgres -f ./database/schema.sql"
+  },
+  "author": "Alvin Lo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^7.14.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.0"
+  }
+}
